@@ -1,0 +1,10 @@
+Original plans for the WS:
+* We were making a targeting ad system based on medical prescriptions. It takes user consent to use the users' prescriptions through a web UI.
+* We take per-field-level user consent (eg. their address, what type of disease can be queried, etc.), and store them in a JSON. We are looking for standardized way to store user consent data and restrict access to databases/files based on them.
+     * We looked at XACML, but they were too heavy-weighted and also based on Mandatory Access Control (top-down access control). Our goal focuses on user-specified access control or Discretionary Access Control.
+     * We also looked at NGAC (which is a work done by NIST)
+         * Implemented a simple prototype using Neo4j as a backend
+         * Not too many impls are out there
+         * Not a standardized way to describe user consent data
+         
+-> So, we wanted to know if anyone does access control based on user consent at a larger scale, and wanted to know if there are any attempts of standardizing storage/descriptions of user consent.
