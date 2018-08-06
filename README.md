@@ -5,4 +5,4 @@ Position paper for [2018 W3C Permissions and User Consent Workshop](https://www.
 ## Ideas
 * Using FOI to identify categories of information that can be shared
 * Combine with discretionary access control
-* Use WoT as an example of "[consent as access control]" concept
+* Use WoT as an example of "[consent as access control](0806-kajiwara-original-plans.txt)" concept
