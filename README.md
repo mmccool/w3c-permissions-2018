@@ -11,11 +11,11 @@ Position paper for [2018 W3C Permissions and User Consent Workshop](https://www.
 
 # User Consent as Access Control
 
-This is an idea where we describe user consent information in machine-readable standardized format and use them to restrict/filter sensitive information before letting the services use these information. With a standardized description for user consent, app developers can develop privacy-aware applications by being able to parse these documents and filter their data accordingly.
+We propose describing user consent information in machine-readable standardized format and use it to restrict/filter sensitive information before letting the services use this information. With a standardized description for user consent, app developers can develop privacy-aware applications by being able to parse these documents and filter their data accordingly.  For IoT applications in particular, this aligns well with the Web of Things approach which uses a machine-readable description of potential interactions with IoT devices.
 
 ## From a Web of Things perspective: describing data sharing capabilities with Field of Interest
 
-Using the Web of Things standards, we can describe what information a device can send using the Thing Description. In addition to this, we can group multiple devices based on what they do using Field of Interest information. With these information, the user can figure out what kind of information a device or a group of devices are sending, then decide on what information can leave the device and be shared with others.
+Using the [Web of Things]() standards, we can describe what information a device can send using a [Thing Description](), which is a JSON-LD document giving the set of interactions available in a thing, along with optional semantic annotation. In addition to this, we can group multiple devices based on what they do using Field of Interest semantic information. With this information, the user can figure out what kind of information a device or a group of devices are sending, then decide on what information can leave the device and be shared with others.
 
 The standardized user consent data can be used to restrict information from leaving the network by filter them out at the gateway, or to tell the device explicitly not to send certain information out of the device.
 
