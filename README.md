@@ -15,9 +15,9 @@ We propose describing user consent information in machine-readable standardized 
 
 ## From a Web of Things perspective: describing data sharing capabilities with Field of Interest
 
-Using the [Web of Things]() standards, we can describe what information a device can send using a [Thing Description](), which is a JSON-LD document giving the set of interactions available in a thing, along with optional semantic annotation. In addition to this, we can group multiple devices based on what they do using Field of Interest semantic information. With this information, the user can figure out what kind of information a device or a group of devices are sending, then decide on what information can leave the device and be shared with others.
+Using the [Web of Things](https://www.w3.org/WoT/) standards, we can describe what information a device can send using a [Thing Description](https://w3c.github.io/wot-thing-description/), which is a JSON-LD document giving the set of interactions available in a thing, along with optional semantic annotation. In addition to this, we can group multiple devices based on what they do using [Field of Interest and iotschema.org](http://iotschema.org/) semantic information. With this information, the user (or an autonomous system acting on their behalf) can figure out what kind of information a device or a group of devices are sending, then decide what information can leave the device and be shared with others.
 
-The standardized user consent data can be used to restrict information from leaving the network by filter them out at the gateway, or to tell the device explicitly not to send certain information out of the device.
+Standardized user consent data can be used to restrict information from leaving the network by filtering at the gateway, or by telling the device explicitly not to send certain information out of the device.
 
 ## Standards of access control / policy description
 
