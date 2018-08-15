@@ -36,3 +36,8 @@ There are (at least) two relevant standards in the access control domain:
     * Not many implementations are present, and lacks a standardized format for describing policies.
 
 From my understanding, there is no standardized/widely-used JSON-based format that describes access control policies and support efficient discretionary access control. There are many services that have discretionary access control and perform well, so I think this combination is not impossible to achieve.
+
+TO DO: what about CoAP ACLs?
+
+## References
+* TO DO, i.e. additional links to WoT documents and presentations
